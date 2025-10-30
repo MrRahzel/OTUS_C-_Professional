@@ -5,6 +5,6 @@
 int main (int, char **) {
     std::cout << "Version: " << version() << std::endl;
     std::cout << "Hello, world!" << std::endl;
-    std::cout << "Test3" << std::endl;
+    std::cout << "Test4" << std::endl;
     return 0;
 }
