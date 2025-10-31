@@ -16,7 +16,7 @@ jobs:
       - run: sudo apt-get update && sudo apt-get install libboost-test-dev -y
       - run: cd Lesson1 && cmake . -DPATCH_VERSION=${{ github.run_number }}
       - run: cd Lesson1 && cmake --build .
-      - run: cd Lesson1 &&cmake --build . --target test
+      - run: cd Lesson1 && cmake --build . --target test
       - run: cd Lesson1 && cmake --build . --target package
       - name: Create Release
         id: create_release
